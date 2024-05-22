@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import { toast } from 'react-toastify';
 import axios from "axios";
 
-const baseURL = "http://api.openweathermap.org/data/2.5/weather?q=";
+const baseURL = "https://api.openweathermap.org/data/2.5/weather?q=";
 const API_KEY = import.meta.env.VITE_API_KEY;
 
 
